@@ -7,10 +7,11 @@ package gov.in.oupp.training.java.corejava.basics;
 public class First {
 	public static void main(String[] args) {
 		System.out.println("Hello OUPP Techies!!");
-		int i=0;
-		for(; i<10;i++);
+		
+		for(int i=0; i<10;i++);
 		{
-			System.out.println(i);;;;;;
+			System.out.println(i);;;;
+			System.out.println(i*2);
 		}
 		
 		int j=0;
@@ -18,5 +19,12 @@ public class First {
 		{
 			System.out.println(j);
 		}
+		
+		int narr[] = {2,4,2,42};
+		for(int x: narr){
+			System.out.println(x);
+		}
+		
+		
 	}
 }
